@@ -30,3 +30,8 @@ header {
 .contenido h1 {
     margin: 0;
 }
+
+.casa-referencia img{
+    height: 310px;
+    width: 400px;
+}
