@@ -1,8 +1,11 @@
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* SANTIAGO */
 
 header {
-   
     top: 0;
     left: 0;
     right: 0;
@@ -11,18 +14,44 @@ header {
     z-index: 1000;
 }
 
-.nav nav a {
+.header-nav a {
     text-decoration: none;
 }   
 
-.contenedor-menu-principal {
-    background-color: #FFFFFF;
-    height: 66px;
-}
-
-.contenedor-menu-arriba {
+.header {
     background-color: #4C4C4C;
     height: 36px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-left {
+    display: flex;
+    gap: 15px;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav {
+    background-color: #FFFFFF;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav a {
+    color: black;
+}
+
+.BETARQ {
+    width: 159.16px;
+    height: 37.06px;
 }
 
 .contenido {
