@@ -1,12 +1,74 @@
-<h5>El inicio de sesión</h5>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BET-ARQ</title>
+    <link rel="stylesheet" href="login.css">
+   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@3.0.0/dist/iconify-icon.min.js"></script>
 </head>
 <body>
+
+            <div class="login">
+              <img src="./img/logo.jpeg" alt="Logo BET-ARQ">
+
+                <form>
+            
+               
+
+                <div class="campo">
+
+            <select name="documento" id="documento">
+
+                <option select="Cc">Cédula de ciudadanía</option>
+                <option value="ti">Tarjeta de identidad</option>
+                <option value="ce">Cédula de extranjería</option>
+                <option value="pa">Pasaporte</option>
+
+            </select>
+
+
+        <iconify-icon
+            class="flecha"
+            icon="material-symbols:keyboard-arrow-down-rounded">
+        </iconify-icon>
+
+        </div>
+
+
+
+            <div class="campo" >
+
+                <input type="text" placeholder="Identificación">
+                <iconify-icon class="icono" icon="material-symbols:person-rounded"></iconify-icon>
+                
+            </div>
+             
+           <div class="campo">
+                 <input type="password" placeholder="Contraseña">
+                <iconify-icon class="icono" icon="boxicons:lock-filled"></iconify-icon>
+
+           </div>
+           
+
+            <a href="#">¿Has olvidado tu contraseña?</a>
+
     
+            <button  id="btn-ingresar" type="submit">Ingresar</button>
+            <button  id="btn-cuenta" type="button">Crear cuenta nueva</button>
+
+        </form>
+         <!-- Parte inferior -->
+        <div class="footer">
+
+            <p>Aviso de privacidad</p>
+
+            <p>Términos y condiciones de uso</p>
+
+        </div>
+
+    
+ 
+
 </body>
 </html>
